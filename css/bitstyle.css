@@ -1,0 +1,62 @@
+.configSection {
+    margin-bottom: 20px;
+}
+
+.toggleHeader {
+    text-align: center;
+}
+
+.configSection input:not([type='radio']), select {
+    width: 100%;
+}
+
+.toggleHeader > input[type='button'] {
+    width: 150px;
+}
+
+.configSection table {
+    margin-top: 10px;
+}
+
+.configSection table td.heading {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#custom .intend1 {
+    margin-left: 30px;
+}
+
+#custom textarea {
+    font-weight: normal;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
+    height: 100px;
+    width: 100%;
+}
+
+#custom .hint {
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Tooltip text */
+.tooltiptext {
+    width: 530px;
+    padding: 10px;
+    margin-top: 20px;
+    color: whitesmoke;
+    margin-left: -40px;
+    visibility: hidden;
+    position: absolute;
+    background-color: grey;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    display: block;
+    position: absolute;
+    visibility: visible;
+
+}
